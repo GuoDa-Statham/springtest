@@ -4,9 +4,7 @@ package com.mytest.springtest;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 
-import java.util.HashMap;
 import java.util.Stack;
-import java.util.concurrent.ThreadPoolExecutor;
 
 @Async
 @Component
@@ -23,6 +21,5 @@ public class AsyncTask {
         System.out.println(65536*2 >>>16);
         System.out.println(Math.pow(2,2));
 
-        Stack
     }
 }
